@@ -1,0 +1,36 @@
+<html>
+<head>
+__APP_HEAD_PRE__<title>__PAGE_TITLE__</title>__APP_HEAD_POST__
+</head>
+<body>
+    
+<link rel="stylesheet" type="text/css" href="/apptmpl/apptmpl.css">
+<link rel="stylesheet" type="text/css" href="/apptmpl/apptmpl-print.css" media="print">
+<link rel="stylesheet" type="text/css" href="/apptmpl/tmpl.css">
+<link rel="stylesheet" type="text/css" href="/apptmpl/tmpl-print.css" media="print">
+<div class="header">
+<h1><a href="/" style="
+  display: inline-block;
+  vertical-align: middle;
+"><img src="/apptmpl/img/logo.png" alt="logo" border="0"></a>
+ <a href="__APP_URL__" style="
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+">__APP_TITLE__</a></h1>
+  <span class="sectionLinks">
+    | <a href="/index.pl">Main Menu</a>
+    | <a href="https://hivepoint.com">hivepoint.com</a>
+	|
+  </span>
+</div>
+
+<table class="container"><tr><td class="pad">
+<tr valign="top"><td width="98%">__APP_CONTENT__</td></tr></table>
+<div class="footer">
+<br>Current UTC Time: __CURRENT_TIME__
+<br>Time to build this page: __ELAPSED_TIME__ for user __REMOTE_USER__ from host __REMOTE_HOST__.
+</div>
+
+</body>
+</html>

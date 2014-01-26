@@ -1,0 +1,5 @@
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresDefault "now plus 15 minutes"
+</IfModule>
